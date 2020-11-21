@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Roboto;
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+}
+
+a
+{
+	color: inherit;
+	padding: 0px;
+}
+body
+{ 
+	background: #FBF2C0;
+	font-family: Roboto;
+	font-size: 1rem; 
+}
+
+.dropdown-toggle, .dropdown, .dropdown-menu-right, .navbar,  .navbar-toggler, footer
+{
+	background: #214E34; 
+	color: #FBF2C0;
+}
+.nav-item-active, .navbar-toggler
+{
+	color: #ED9B40;
+}
+.navbar
+{
+	position: sticky;
+  	top: 0;
+}
+.btn-editar{
+	background: #214E34;
+	color: #FBF2C0;
+}
+.btn-borrar{
+	background: #ED9B40;
+	color: #FBF2C0;
+}
+.btn-resetear{
+	background: #FBF2C0;
+	color: #214E34;
+}
+.btn-suprimir, .suprimir{
+	background: #272727;
+	color: #ED9B40;
+}
+
+.nombre{
+	color: #ED9B40;
+}
+/*
+.nombre:after{
+	content: url("/storage/img/lupa--00.PNG");
+}  
+*/
+footer, nav{
+	opacity: 0.9;
+}
+#copyright{
+	color: #ED9B40;
+}
+.mensaje-cookie
+{
+    animation:animacionArriba 3s;
+}
+@keyframes animacionArriba{from{opacity:0} to{opacity:1}

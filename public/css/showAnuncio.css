@@ -1,0 +1,19 @@
+h2{
+	background: #ED9B40;
+	color: #FBF2C0;
+}
+h3{
+	background: #214E34;
+	color: #ED9B40;
+}
+h4{
+	background: #272727;
+	color: #ED9B40;
+}
+.info div{
+	background: #214E34;
+	text-align: center;
+}
+.info  a{
+	color: #ED9B40;
+}

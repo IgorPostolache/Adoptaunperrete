@@ -1,0 +1,3 @@
+CONFIRMA TU CORREO AQUI
+<br>
+<a href="">CONFIRMAR</a>

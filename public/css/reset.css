@@ -1,0 +1,27 @@
+body
+{
+	background: #FBF2C0;
+}
+.btn
+{
+	background: #ED9B40;
+	color: #FBF2C0;
+}
+.card-header
+{
+	background: #ED9B40;
+}
+.card-body
+{
+	background: #214E34;
+}
+.container
+{
+	color: #FBF2C0;
+}
+body
+{
+	background-image: url("/storage/img/contactar--06.jpg");
+	background-position: right top;
+	background-repeat: no-repeat;
+}

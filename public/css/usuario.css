@@ -1,0 +1,79 @@
+body 
+{
+  overflow-x: hidden;
+}
+#barra.activada #barraLateral-contenedor 
+{
+  margin-left: 0;
+}
+#barraLateral-contenedor 
+{
+  margin-left: -15rem;
+  min-height: 91vh;
+  -moz-transition: margin 1s ease-out;
+  -o-transition: margin 1s ease-out;
+  -webkit-transition: margin 1s ease-out;
+  transition: margin 1s ease-out;
+}
+
+#barraLateral-contenedor .barraLateral-cabecera 
+{
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#barraLateral-contenedor .list-group 
+{
+  width: 15rem;
+}
+
+#contenidoPagina-contenedor 
+{
+  min-width: 100vw;
+}
+
+.border-right, .barraLateral-cabecera, .list-group-flush a
+{
+  background: #272727;
+  color: #ED9B40;
+}
+.list-group-flush a:hover, .list-group-flush a:last-child:hover
+{
+  background: #ED9B40;
+  color: #272727;
+}
+.list-group-flush a:last-child
+{
+  background: #214E34;
+  color: #FBF2C0;
+}
+
+.barraLateral-cabecera
+{
+  background: #214E34;
+  color: #FBF2C0;
+  border-top: 1px solid #FBF2C0;
+  border-bottom: 1px solid #FBF2C0;
+}
+h1
+{
+  background: #272727;
+  color: #ED9B40;
+}
+@media (min-width: 768px) 
+{
+  #barraLateral-contenedor 
+  {
+    margin-left: 0;
+  }
+  #barra.activada #barraLateral-contenedor 
+  {
+    margin-left: -15rem;
+  }
+  #contenidoPagina-contenedor 
+  {
+    min-width: 0;
+    width: 100%;
+  }
+
+}

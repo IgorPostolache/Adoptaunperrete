@@ -1,0 +1,40 @@
+/**
+.navbar
+{
+	background-image: url('..//img/header-nav.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #FBF2C0;
+}
+*/
+#anuncios
+{
+	background: #FBF2C0;
+	color: #272727;
+}
+.row
+{
+	background: #214E34;
+	color: #FBF2C0;
+	width: 101%;
+}
+h1{
+	color: #ED9B40;
+}
+input[type=submit]{
+	background: #ED9B40;
+	color: #272727;
+	background-image: url("/storage/img/lupa--00.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 10%;
+	width: 30px;
+}
+select{
+	background: #FBF2C0;
+	color: #272727;
+	border: 4px solid #ED9B40;
+	
+}
+

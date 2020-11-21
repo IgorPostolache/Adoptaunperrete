@@ -1,0 +1,29 @@
+.formulario
+{
+	background-image: url('/storage/img/a.jpg');
+	color: #FBF2C0;
+	width: 101%;
+}
+input[type='text'], input[type='email'],  textarea
+{
+
+	background: #214E34;
+	width: 100%;
+}
+textarea
+{
+	
+}
+.btn-enviar
+{
+	background: #FBF2C0;
+	color: #272727;
+	margin-top: 1rem;
+	margin-bottom: 1re;
+}
+.btn-enviar:hover
+{
+	background: #214E34;
+	color: #ED9B40;
+}
+ 

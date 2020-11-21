@@ -1,0 +1,17 @@
+#verNombreUsuario
+{
+	color: #ED9B40;
+	text-decoration: underline;
+}
+.fa-ban
+{
+	background: #FBF2C0;
+	color: #ED9B40;
+	font-size: 2rem;
+}
+.fa-check-square
+{
+	background: #FBF2C0;
+	color: #214E34; 
+	font-size: 2rem;
+}

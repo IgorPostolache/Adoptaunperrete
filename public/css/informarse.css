@@ -1,0 +1,16 @@
+p:nth-child(odd)
+{
+	color: #ED9B40;
+}
+.animacionCookies
+{
+    animation:animacionCookies 3s;
+    background: #ED9B40;
+}
+.alert a{
+	color: #FBF2C0;
+}
+.alert button{
+	color: #FBF2C0;
+}
+@keyframes animacionCookies{from{opacity:0} to{opacity:1}
